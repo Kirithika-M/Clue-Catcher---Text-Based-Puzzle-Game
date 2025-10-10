@@ -1,0 +1,12 @@
+transformers==4.44.2
+#torch==2.3.1+cpu
+sentence-transformers==2.7.0
+scikit-learn==1.5.2
+numpy==1.26.4
+argparse
+json
+os
+random
+typing
+ipykernel
+accelerate
