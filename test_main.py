@@ -21,7 +21,7 @@ hint_gen_model = "Qwen/Qwen2.5-1.5B-Instruct"
 embed_model = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Step 3 : Using the Hugging Face Access Token (for google/gemma-2-2b-it LLM)
-hf_token = "hf_token"
+hf_token = ""
 login(token=hf_token)
 
 ## Disabling tokenizer parallelism and suppressing warnings
@@ -252,4 +252,5 @@ def main():
 
 # Step 6 : Call the main function
 if __name__ == "__main__":
+
     main()
